@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+
 const Person = ({ img, name, job, children }) => {
   const url = `https://randomuser.me/api/portraits/thumb/men/${img}.jpg`;
   return (
@@ -16,14 +17,14 @@ const Person = ({ img, name, job, children }) => {
 const PersonList = () => {
   return (
     <section className="person-list">
-      <Person img="34" name="john" job="developer" />
-      <Person img="22" name="bob" job="designer">
+      <Person img="34" name="John" job="developer" />
+      <Person img="20" name="Lisa" job="designer">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores,
-          tempora!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quia,temporibus.
         </p>
       </Person>
-      <Person img="56" name="david" job="the boss" />
+      <Person img="57" name="Mike" job="stripper" />
     </section>
   );
 };
