@@ -1,0 +1,15 @@
+React Server Project:
+
+* Install Express = sudo npm install --save Express
+Node = Javascript runtime used to execute code outside of the browser
+Express = Library that runs in the Node runtime. Has helpers to make dealing with HTTP traffic easier.
+
+* create root file index.js
+* Does not use the 'import express from 'express';' as React does.
+    * It is called the ES2015 Module that express does not currently support.
+
+Heroku = https://git.heroku.com/agile-depths-93200.git
+
+Google:
+- Client ID = 
+- Client Secret = 

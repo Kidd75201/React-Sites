@@ -1,0 +1,2 @@
+Troubleshooting props.children - you can use the console.log() function to determine what props are being passed to the react component.
+- I used this recently to find a typo in Layout.js with using 'props.childern' instead of 'props.children'
