@@ -11,13 +11,20 @@
 // inherits functionality
 // Component class is used to transfer from basic E6 class.
 
-import React, { Component } from "react";
-import BookList from "./BookList";
-const App = () => (
-  <section>
-    <h1>This is our Application</h1>
-    <BookList />
-  </section>
-);
+import React from "react";
+import Header from "./Header";
+import MainContent from "./MainContent";
+import Joke from "./Joke";
+import Footer from "./Footer";
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
 
 export default App;

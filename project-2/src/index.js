@@ -2,8 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import MyInfo from "./MyInfo";
 import * as serviceWorker from "./serviceWorker";
 
+// JSX  ReactDOM.render(render what, render where)
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change

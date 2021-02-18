@@ -13,3 +13,22 @@ Heroku = https://git.heroku.com/agile-depths-93200.git
 Google:
 - Client ID = 
 - Client Secret = 
+
+
+* When there are changes to the index.js or any other files, update the new code to heroku.
+1. git add -A
+2. git commit -m "change made goes here"
+3. git push heroku master
+    - this is the new code pushed to heroku
+4. check for error using 'heroku logs' at terminal
+5. Run new code with 'heroku start'
+
+
+
+Directories:
+1. config: Protected API Keys and settings 
+2. routes: contains all route handlers grouped by purpose
+3. services: contains all the configurations for passport
+
+jbeza1982
+DJVtfG9dDd3l10cl
