@@ -22,6 +22,7 @@ ReactDOM.render(
 // //STORE -> GLOBALIZED STATE
 
 // // ACTION -> INCREMENT
+// // ACTION -> INCREMENT
 // const increment = () => {
 //   return {
 //     type: "INCREMENT",
